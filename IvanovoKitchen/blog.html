@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полезный блог о здоровье спины | Костоправ Дмитрий Петров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Шапка блога (копия основной, но ссылки ведут на главную) -->
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo" style="text-decoration: none;">
+                <span class="logo__title">Дмитрий Петров</span>
+                <span class="logo__subtitle">Костоправ • Хиропрактик</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav__link">На главную</a>
+                <a href="index.html#services" class="nav__link">Услуги и цены</a>
+            </nav>
+            <div class="header__contacts">
+                <a href="tel:+79000000000" class="phone">+7 (900) 000-00-00</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент блога -->
+    <main class="blog-page">
+        <div class="container">
+            <h1 class="blog-page__title">Блог о здоровом позвоночнике</h1>
+            <p class="blog-page__subtitle">Экспертные статьи, разборы симптомов и практические советы от костоправа.</p>
+
+            <!-- Фильтр по категориям (очень удобно, когда статей будет 50+) -->
+            <div class="blog-categories">
+                <button class="category-btn category-btn--active">Все темы</button>
+                <button class="category-btn">Поясница</button>
+                <button class="category-btn">Шея и голова</button>
+                <button class="category-btn">Осанка</button>
+            </div>
+
+            <!-- Сетка для 50+ статей -->
+            <div class="blog-grid">
+                
+                <!-- Статья 1 -->
+                <a href="articles/lumbago.html" class="article-card">
+                    <div class="article-card__image art-img-1"></div>
+                    <div class="article-card__content">
+                        <span class="article-card__tag">Поясница</span>
+                        <h3 class="article-card__title">Что делать, если резко «вступило» в поясницу?</h3>
+                        <p class="article-card__excerpt">Первая помощь при острой боли: какие позы принять, чего категорически нельзя делать в первые часы...</p>
+                        <span class="article-card__more">Читать подробнее →</span>
+                    </div>
+                </a>
+
+                <!-- Статья 2 -->
+                <a href="articles/ergonomics.html" class="article-card">
+                    <div class="article-card__image art-img-2"></div>
+                    <div class="article-card__content">
+                        <span class="article-card__tag">Осанка</span>
+                        <h3 class="article-card__title">Как правильно сидеть за компьютером без вреда для шеи</h3>
+                        <p class="article-card__excerpt">Разбираем главные ошибки офисной эргономики. Простые упражнения-минутки, которые спасoт от защемлений...</p>
+                        <span class="article-card__more">Читать подробнее →</span>
+                    </div>
+                </a>
+
+                <!-- СЮДА ВЫ БУДЕТЕ ДОБАВЛЯТЬ ВСЕ ПОСЛЕДУЮЩИЕ СТАТЬИ (3, 4, 5... 50) -->
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Подвал (Футер) -->
+    <footer class="footer" style="margin-top: 80px;">
+        <div class="footer__warning">
+            ИМЕЮТСЯ ПРОТИВОВОПОКАЗАНИЯ. НЕОБХОДИМА КОНСУЛЬТАЦИЯ СПЕЦИАЛИСТА
+        </div>
+        <div class="footer__bottom">
+            <div class="container text-center">
+                <p>© 2026 Костоправ Дмитрий Петров. Блог о здоровье.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
